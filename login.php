@@ -25,9 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["role"] = $user["role"];
 
         if ($user["role"] == "patient") {
-            header("Location: patient/dashboard.php");
+            header("Location: patient/p_home.php");
         } elseif ($user["role"] == "doctor") {
-            header("Location: doctor/dashboard.php");
+            header("Location: doctor/d_home.php");
         } elseif ($user["role"] == "admin") {
             header("Location: admin/dashboard.php");
         }
