@@ -15,6 +15,7 @@ phool/
 │
 ├── admin/
 │   └── dashboard.php
+|       manage_doctors.php
 │
 ├── css/
 │   └── style.css
