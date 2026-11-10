@@ -9,9 +9,13 @@ phool/
 │
 ├── patient/
 │   └── p_home.php
+        search_doctors.php
+        book_appointment.php
 │
 ├── doctor/
 │   └── d_home.php
+        manage_schedule.php
+        manage_appointment.php
 │
 ├── admin/
 │   └── dashboard.php
