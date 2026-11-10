@@ -164,7 +164,7 @@ $schedules = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     </table>
 
-    <a href="dashboard.php">Back to Dashboard</a>
+    <a href="d_home.php">Back</a>
 
 </div>
 </body>
