@@ -338,7 +338,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" &&
             Please wait for the doctor's confirmation.
         </p>
 
-        <a href="dashboard.php" class="btn">
+        <a href="p_home.php" class="btn">
             Go to Patient Dashboard
         </a>
 
