@@ -57,6 +57,7 @@ $appointments = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <nav>
         <a href="../logout.php">Logout</a>
+        <a href="manage_doctors.php">Manage Doctors</a>
     </nav>
 
     <div class="cards">
