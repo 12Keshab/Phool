@@ -53,6 +53,8 @@ $appointments = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <p>Manage your appointments here.</p>
 
     <nav>
+        <a href="manage_schedule.php">Manage Schedule</a>
+        <a href="manage_appointments.php">Manage Appointments</a>
         <a href="../logout.php">Logout</a>
     </nav>
 

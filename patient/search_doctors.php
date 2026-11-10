@@ -162,7 +162,7 @@ $doctors = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <?php endforeach; ?>
 
-    <a href="dashboard.php">Back to Dashboard</a>
+    <a href="p_home.php">Back</a>
 
 </div>
 </body>
