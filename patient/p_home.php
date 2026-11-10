@@ -56,6 +56,7 @@ $appointments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <nav>
         <a href="../index.php">Home</a>
+        <a href="search_doctors.php">Search and Book Doctors</a>
         <a href="../logout.php">Logout</a>
     </nav>
 
